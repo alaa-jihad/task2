@@ -1,0 +1,57 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f0f5; /* Light pink background */
+            color: #333;
+            margin-top:20px;
+			margin: 0;
+            padding-top: 200px;
+			padding-bottom: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #resume-container {
+            background-color: #fff; /* White container background */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        #left-side {
+            flex: 1;
+            background-color: #ff9fad; /* Pink left side background */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #right-side {
+            flex: 2;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        .education, .My-experience {
+            margin-bottom: 20px;
+        }
+		
